@@ -17,7 +17,7 @@ e = html.escape
 linhas, fichas = [], []
 for p in cfg['pecas']:
     cod = p['cod']; cid = cod.lower()
-    linhas.append(f"<tr><td class=\"cod\">{e(cod)}</td><td>{e(p['titulo'])}</td><td>{e(p['formato'])}</td><td>{e(p['dia'])}</td><td>{e(p['hora'])}</td></tr>")
+    linhas.append(f"<tr><td>{e(p['dia'])}</td><td>{e(p['hora'])}</td><td class=\"cod\">{e(p['titulo'])}</td><td>{e(p['formato'])}</td></tr>")
     if p['tipo'] == 'video':
         midia = f"<video src=\"{p['midia'][0]}\" poster=\"{p.get('capa', '')}\" controls loop playsinline preload=\"metadata\"></video>"
     elif p['tipo'] == 'carrossel':
@@ -32,11 +32,11 @@ for p in cfg['pecas']:
   <article class="peca" id="{cid}">
     <div class="midia">{midia}<p class="dica">{e(p.get('dica', ''))}</p></div>
     <div class="info">
-      <div class="cabeca"><span class="cod">{e(cod)} · v{p.get('versao', 1)}</span><h2>{e(p['titulo'])}</h2></div>
-      <div class="chips"><span class="chip forte">{e(p['funcao'])}</span><span class="chip">{e(p['formato'])}</span><span class="chip">{e(p['dia'])} · {e(p['hora'])}</span></div>
+      <div class="cabeca"><span class="cod">{e(p['dia'])} · {e(p['hora'])}</span><h2>{e(p['titulo'])}</h2>{'<span class="chip">versão ' + str(p.get('versao', 1)) + '</span>' if p.get('versao', 1) > 1 else ''}</div>
+      <div class="chips"><span class="chip forte">{e(p['funcao'])}</span><span class="chip">{e(p['formato'])}</span></div>
       <p class="ideia">{e(p['ideia'])}</p>
-      <div><div class="rotulo">Legenda</div><div class="legenda" id="leg-{cid}">{e(p['legenda'])}</div></div>
-      <div class="acoes"><button class="copiar" data-alvo="leg-{cid}" type="button">Copiar legenda</button><span class="ok" aria-live="polite"></span></div>
+      <div><div class="rotulo">Texto do post</div><div class="legenda" id="leg-{cid}">{e(p['legenda'])}</div></div>
+      <div class="acoes"><button class="copiar" data-alvo="leg-{cid}" type="button">Copiar texto</button><span class="ok" aria-live="polite"></span></div>
       {pend}
     </div>
   </article>''')
@@ -49,21 +49,21 @@ corpo = f'''<body>
     <section class="como" aria-labelledby="como-aprovar">
       <h2 id="como-aprovar">Como aprovar</h2>
       <ol>
-        <li>Assista ou passe as imagens de cada peça e leia a legenda ao lado. Os Reels têm som: aumente o volume.</li>
-        <li>No chat, responda com o código: <code>OK final {e(cfg['pecas'][0]['cod'])}</code> para aprovar como está, ou <code>Ajustar {e(cfg['pecas'][0]['cod'])}:</code> seguido do que mudar.</li>
-        <li>Só o que tiver <code>OK final</code> vai para a fila do Buffer, no dia e horário combinados.</li>
+        <li>Assista aos vídeos (com som) e passe as fotos de cada post. O texto que vai junto está ao lado.</li>
+        <li>Volte para a conversa e escreva, do seu jeito, por exemplo: <code>"{e(cfg['pecas'][0]['titulo'])}" aprovado</code> ou <code>"{e(cfg['pecas'][0]['titulo'])}": muda a frase do começo</code>. Se gostar de tudo, escreva <code>pode publicar todos</code>.</li>
+        <li>Os posts aprovados saem sozinhos, no dia e horário de cada um.</li>
       </ol>
     </section>
   </header>
   <section aria-labelledby="agenda-titulo">
     <div class="rotulo" id="agenda-titulo">Calendário da semana (horário de São Paulo)</div>
     <div class="agenda-wrap"><table class="agenda">
-      <thead><tr><th>Código</th><th>Peça</th><th>Formato</th><th>Dia</th><th>Horário</th></tr></thead>
+      <thead><tr><th>Dia</th><th>Horário</th><th>Post</th><th>Formato</th></tr></thead>
       <tbody>{''.join(linhas)}</tbody>
     </table></div>
   </section>
 {''.join(fichas)}
-  <footer>Feito em código, nas cores e fontes da marca. Para mudar algo, diga o código da peça e o que mudar; cada ajuste vira uma nova versão (v2, v3).</footer>
+  <footer>Feito em código, nas cores e fontes da marca. Para mudar algo, diga o nome do post e o que mudar.</footer>
 </main>
 {script}
 </body>

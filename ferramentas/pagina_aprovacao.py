@@ -4,7 +4,8 @@ semana.json: {"titulo": "...", "eyebrow": "...", "intro": "...",
   "pecas": [{"cod": "SEG-01", "versao": 1, "titulo": "...", "funcao": "...", "formato": "Reel · 15 s",
              "dia": "Segunda", "hora": "19h", "ideia": "...", "tipo": "video|carrossel|imagem",
              "midia": ["midia/SEG-01.mp4"], "capa": "midia/capa-SEG-01.jpg", "alts": ["..."],
-             "dica": "...", "legenda": "...", "pendencias": ["..."]}]}
+             "dica": "...", "legenda": "..."}]}
+Sem botão de copiar e sem perguntas na página: quem publica é o Claude, e dúvidas vão para o Theo.
 Os arquivos de mídia são copiados à parte para saida/midia/.
 """
 import html, json, os, sys
@@ -12,7 +13,6 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 cfg = json.load(open(sys.argv[1])); saida = sys.argv[2]
 head = open(os.path.join(AQUI, 'modelo/head.html')).read()
 head = head.replace('<title>Aprovação do lote 2</title>', f"<title>{html.escape(cfg['titulo'])}</title>")
-script = open(os.path.join(AQUI, 'modelo/script.html')).read()
 e = html.escape
 linhas, fichas = [], []
 for p in cfg['pecas']:
@@ -25,9 +25,6 @@ for p in cfg['pecas']:
         midia = f"<div class=\"carrossel\" aria-label=\"Lâminas do carrossel {e(cod)}\">{imgs}</div>"
     else:
         midia = f"<img class=\"unica\" src=\"{p['midia'][0]}\" alt=\"{e(p.get('alts', [''])[0])}\">"
-    pend = ''
-    if p.get('pendencias'):
-        pend = '<div><div class="rotulo">Para conferir</div><ul class="pend">' + ''.join(f'<li>{e(x)}</li>' for x in p['pendencias']) + '</ul></div>'
     fichas.append(f'''
   <article class="peca" id="{cid}">
     <div class="midia">{midia}<p class="dica">{e(p.get('dica', ''))}</p></div>
@@ -36,8 +33,6 @@ for p in cfg['pecas']:
       <div class="chips"><span class="chip forte">{e(p['funcao'])}</span><span class="chip">{e(p['formato'])}</span></div>
       <p class="ideia">{e(p['ideia'])}</p>
       <div><div class="rotulo">Texto do post</div><div class="legenda" id="leg-{cid}">{e(p['legenda'])}</div></div>
-      <div class="acoes"><button class="copiar" data-alvo="leg-{cid}" type="button">Copiar texto</button><span class="ok" aria-live="polite"></span></div>
-      {pend}
     </div>
   </article>''')
 corpo = f'''<body>
@@ -65,7 +60,6 @@ corpo = f'''<body>
 {''.join(fichas)}
   <footer>Feito em código, nas cores e fontes da marca. Para mudar algo, diga o nome do post e o que mudar.</footer>
 </main>
-{script}
 </body>
 </html>
 '''

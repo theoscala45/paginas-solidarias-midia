@@ -1,0 +1,70 @@
+{
+ "dur": 15.0,
+ "eventos": [
+  [
+   0.7,
+   "air-in-a-hit.wav",
+   -2,
+   null
+  ],
+  [
+   2.4,
+   "short-wind-swoosh.wav",
+   -8,
+   0.9
+  ],
+  [
+   3.73,
+   "cool-interface-click-tone.wav",
+   -3,
+   null
+  ],
+  [
+   5.47,
+   "arrow-whoosh.wav",
+   -9,
+   null
+  ],
+  [
+   5.87,
+   "cool-interface-click-tone.wav",
+   -3,
+   null
+  ],
+  [
+   8.6,
+   "cool-interface-click-tone.wav",
+   -3,
+   null
+  ],
+  [
+   8.93,
+   "hard-pop-click.wav",
+   -4,
+   0.5
+  ],
+  [
+   11.55,
+   "short-wind-swoosh.wav",
+   -8,
+   0.9
+  ],
+  [
+   12.4,
+   "air-in-a-hit.wav",
+   -4,
+   null
+  ],
+  [
+   13.25,
+   "message-pop-alert.mp3",
+   -6,
+   null
+  ]
+ ],
+ "musica": {
+  "arquivo": "/home/claude/musica/biblioteca/norm/swings-and-slides.wav",
+  "inicio": 25.7,
+  "ganho_db": -10
+ }
+}

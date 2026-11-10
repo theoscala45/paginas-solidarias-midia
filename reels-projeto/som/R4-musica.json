@@ -1,0 +1,94 @@
+{
+ "dur": 14.0,
+ "musica": {
+  "arquivo": "/home/claude/musica/biblioteca/norm/contagem-original.wav",
+  "inicio": 0.0,
+  "ganho_db": -11
+ },
+ "eventos": [
+  [
+   0.73,
+   "risco-caneta.wav",
+   -2,
+   null
+  ],
+  [
+   1.33,
+   "cool-interface-click-tone.wav",
+   -6,
+   null
+  ],
+  [
+   2.87,
+   "short-wind-swoosh.wav",
+   -12,
+   0.8
+  ],
+  [
+   3.8,
+   "papel.wav",
+   -6,
+   null
+  ],
+  [
+   4.07,
+   "papel.wav",
+   -7,
+   null
+  ],
+  [
+   4.33,
+   "papel.wav",
+   -8,
+   null
+  ],
+  [
+   4.6,
+   "papel.wav",
+   -8,
+   null
+  ],
+  [
+   4.87,
+   "papel.wav",
+   -9,
+   null
+  ],
+  [
+   5.13,
+   "papel.wav",
+   -9,
+   null
+  ],
+  [
+   7.67,
+   "air-in-a-hit.wav",
+   -3,
+   null
+  ],
+  [
+   7.87,
+   "cool-interface-click-tone.wav",
+   -6,
+   null
+  ],
+  [
+   9.57,
+   "arrow-whoosh.wav",
+   -10,
+   null
+  ],
+  [
+   10.47,
+   "cool-interface-click-tone.wav",
+   -6,
+   null
+  ],
+  [
+   11.73,
+   "message-pop-alert.mp3",
+   -6,
+   null
+  ]
+ ]
+}

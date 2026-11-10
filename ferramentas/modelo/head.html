@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aprovação do lote 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:ital,wght@1,700&display=swap">
+<style>
+  /* Marca do Páginas Solidárias; página de mesa de aprovação: uma coluna de fichas, peça à esquerda e texto à direita. */
+  :root {
+    --fundo: #F4EDE0;
+    --papel: #FFFDF8;
+    --oliva: #606637;
+    --oliva-escuro: #3F4424;
+    --terracota: #B65A34;
+    --linha: #E1D7C2;
+    --display: "Playfair Display", Georgia, serif;
+    --corpo: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    color-scheme: light;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--fundo); color: var(--oliva-escuro); font-family: var(--corpo); }
+  body { padding: 32px 20px 64px; }
+  main { max-width: 1040px; margin: 0 auto; display: grid; gap: 28px; }
+  h1, h2 { text-wrap: balance; margin: 0; }
+  header.topo { display: grid; gap: 14px; }
+  .eyebrow { font-weight: 800; letter-spacing: .14em; font-size: 13px; color: var(--terracota); text-transform: uppercase; }
+  h1 { font-weight: 900; font-size: clamp(30px, 5vw, 46px); color: var(--oliva); line-height: 1.05; }
+  h1 em { font-family: var(--display); font-style: italic; color: var(--terracota); font-weight: 700; }
+  .intro { max-width: 66ch; line-height: 1.55; font-size: 16px; margin: 0; }
+  .como { background: var(--papel); border: 1px solid var(--linha); border-radius: 14px; padding: 18px 20px; display: grid; gap: 10px; max-width: 760px; }
+  .como h2 { font-size: 16px; font-weight: 800; color: var(--oliva); }
+  .como ol { margin: 0; padding-left: 20px; line-height: 1.6; font-size: 15px; }
+  code { font-family: var(--corpo); font-weight: 800; background: #EFE6D3; color: var(--oliva-escuro); padding: 1px 7px; border-radius: 6px; }
+
+  table.agenda { border-collapse: collapse; width: 100%; background: var(--papel); border: 1px solid var(--linha); border-radius: 14px; overflow: hidden; font-size: 15px; }
+  .agenda-wrap { overflow-x: auto; }
+  .agenda th, .agenda td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--linha); white-space: nowrap; }
+  .agenda th { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--oliva); }
+  .agenda tr:last-child td { border-bottom: 0; }
+  .agenda td.cod { font-weight: 800; color: var(--terracota); }
+
+  article.peca { background: var(--papel); border: 1px solid var(--linha); border-radius: 18px; padding: 22px; display: grid; grid-template-columns: minmax(240px, 330px) 1fr; gap: 26px; }
+  @media (max-width: 760px) { article.peca { grid-template-columns: 1fr; } }
+  .midia video, .midia img.unica { width: 100%; border-radius: 12px; display: block; background: #000; }
+  .midia img.unica { background: none; }
+  .carrossel { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
+  .carrossel img { width: 86%; flex: 0 0 auto; border-radius: 10px; scroll-snap-align: start; }
+  .dica { font-size: 13px; color: var(--oliva); margin: 8px 0 0; }
+  .info { display: grid; gap: 14px; align-content: start; }
+  .cabeca { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; }
+  .cod { font-weight: 900; color: var(--terracota); font-size: 15px; letter-spacing: .04em; }
+  .info h2 { font-size: 26px; font-weight: 900; color: var(--oliva); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { font-size: 13px; font-weight: 700; padding: 5px 11px; border-radius: 999px; background: #EFE6D3; color: var(--oliva-escuro); }
+  .chip.forte { background: var(--oliva); color: #fff; }
+  .ideia { margin: 0; font-family: var(--display); font-style: italic; font-size: 19px; color: var(--oliva-escuro); line-height: 1.4; max-width: 60ch; }
+  .rotulo { font-size: 12px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--oliva); margin-bottom: 6px; }
+  .legenda { white-space: pre-line; background: #FAF5EA; border: 1px solid var(--linha); border-radius: 12px; padding: 14px 16px; font-size: 15px; line-height: 1.55; max-width: 66ch; }
+  .acoes { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  button.copiar { font: inherit; font-weight: 800; font-size: 14px; border: 0; border-radius: 999px; padding: 9px 18px; background: var(--oliva); color: #fff; cursor: pointer; }
+  button.copiar:focus-visible { outline: 3px solid var(--terracota); outline-offset: 2px; }
+  .ok { font-size: 13px; color: var(--oliva); }
+  ul.pend { margin: 0; padding-left: 18px; line-height: 1.5; font-size: 14px; max-width: 66ch; }
+  ul.pend li::marker { color: var(--terracota); }
+  footer { font-size: 13px; color: var(--oliva); max-width: 66ch; line-height: 1.5; }
+  @media (prefers-reduced-motion: reduce) { video { animation: none; } }
+</style>
+</head>

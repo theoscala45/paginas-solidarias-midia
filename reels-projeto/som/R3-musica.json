@@ -1,0 +1,88 @@
+{
+ "dur": 11.0,
+ "eventos": [
+  [
+   0.27,
+   "cool-interface-click-tone.wav",
+   -4,
+   null
+  ],
+  [
+   0.88,
+   "air-in-a-hit.wav",
+   -2,
+   null
+  ],
+  [
+   2.0,
+   "hard-pop-click.wav",
+   -6,
+   0.25
+  ],
+  [
+   2.4,
+   "hard-pop-click.wav",
+   -7,
+   0.25
+  ],
+  [
+   2.7,
+   "hard-pop-click.wav",
+   -8,
+   0.25
+  ],
+  [
+   2.93,
+   "hard-pop-click.wav",
+   -8,
+   0.25
+  ],
+  [
+   3.13,
+   "hard-pop-click.wav",
+   -9,
+   0.25
+  ],
+  [
+   5.07,
+   "short-wind-swoosh.wav",
+   -9,
+   0.9
+  ],
+  [
+   6.07,
+   "typing-on-a-laptop-keyboard.wav",
+   -10,
+   0.9
+  ],
+  [
+   7.73,
+   "fast-double-click-on-mouse.wav",
+   -3,
+   null
+  ],
+  [
+   7.8,
+   "message-pop-alert.mp3",
+   -4,
+   null
+  ],
+  [
+   7.93,
+   "arrow-whoosh.wav",
+   -10,
+   null
+  ],
+  [
+   8.4,
+   "cool-interface-click-tone.wav",
+   -6,
+   null
+  ]
+ ],
+ "musica": {
+  "arquivo": "/home/claude/musica/biblioteca/norm/the-monk-and-the-cowboy.wav",
+  "inicio": 40.0,
+  "ganho_db": -10
+ }
+}

@@ -1,0 +1,12 @@
+<script>
+  document.querySelectorAll('button.copiar').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var alvo = document.getElementById(b.dataset.alvo);
+      var aviso = b.parentElement.querySelector('.ok');
+      try {
+        navigator.clipboard.writeText(alvo.innerText).then(function () { aviso.textContent = 'Legenda copiada.'; },
+          function () { aviso.textContent = 'Não deu para copiar. Selecione o texto e copie à mão.'; });
+      } catch (e) { aviso.textContent = 'Não deu para copiar. Selecione o texto e copie à mão.'; }
+    });
+  });
+</script>

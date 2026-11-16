@@ -1,0 +1,12 @@
+{"dur": 14.5,
+ "eventos": [
+  [1.47, "papel.wav", -8, null],
+  [1.87, "papel.wav", -11, null],
+  [3.0, "deslizar.wav", -10, null],
+  [6.63, "air-in-a-hit.wav", -4, null],
+  [8.47, "short-wind-swoosh.wav", -9, 0.9],
+  [9.6, "sino.wav", -10, null],
+  [11.4, "message-pop-alert.mp3", -6, null]
+ ],
+ "musica": {"arquivo": "/home/claude/musica/biblioteca/norm/tears-of-joy.wav", "inicio": 10.0, "ganho_db": -10}
+}

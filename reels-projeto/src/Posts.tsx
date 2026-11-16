@@ -69,8 +69,8 @@ export const P1: React.FC = () => {
         <T size={46} peso={600} cor={COR.creme} style={{marginTop: 20, lineHeight: 1.3}}>Cada livro passa pela triagem e ganha um destino:</T>
         <div style={{marginTop: 36, display: 'flex', flexDirection: 'column', gap: 22}}>
           {[
-            {ic: <Pata size={64} />, cor: COR.terracota, t: 'Venda', d: 'no Livros & Patinhas, para ajudar ONGs de animais'},
-            {ic: <Biblioteca size={64} />, cor: COR.oliva, t: 'Doação', d: 'para a Biblioteca BECEI, em Paraisópolis'},
+            {ic: <Pata size={64} />, cor: COR.terracota, t: 'Venda', d: 'no Livros & Patinhas, para ajudar ONGs e protetores de animais em situação de abandono'},
+            {ic: <Biblioteca size={64} />, cor: COR.oliva, t: 'Doação', d: 'para bibliotecas públicas e a Biblioteca BECEI, em Paraisópolis'},
             {ic: <Reciclar size={64} />, cor: '#5B6136', t: 'Reciclagem', d: 'responsável, com a Tramah'},
           ].map((r) => (
             <div key={r.t} style={{display: 'flex', alignItems: 'center', gap: 26}}>
@@ -141,7 +141,7 @@ export const P2: React.FC = () => (
         ))}
       </div>
       <div style={{position: 'absolute', bottom: 0, left: 0, right: 0, display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
-        <T size={32} peso={500} cor={COR.cremeEscuro}>Dados de dez/2025 a 9/11/2026</T>
+        <T size={32} peso={500} cor={COR.cremeEscuro}>Dados até 9/11/2026</T>
         <Icone w={110} branco />
       </div>
     </div>
@@ -151,9 +151,9 @@ export const P2: React.FC = () => (
 // ───────────────────────── TST-P3 · Verdade ou mito? (carrossel, 6 lâminas)
 const AFIRMACOES = [
   {frase: 'Só aceitam livro em bom estado.', resp: 'MITO', expl: 'Aceitamos qualquer livro. Os rasgados e rabiscados seguem para reciclagem responsável com a Tramah.'},
-  {frase: 'O dinheiro das vendas fica com o projeto.', resp: 'MITO', expl: '100% é repassado a ONGs. Em 11 meses, foram R$ 44.450 doados.'},
-  {frase: 'Os livros doados vão para Paraisópolis.', resp: 'VERDADE', expl: '4.162 livros já foram para a Biblioteca BECEI, em Paraisópolis.'},
-  {frase: 'O Livros & Patinhas é outro projeto.', resp: 'MITO', expl: 'É a frente de vendas do Páginas Solidárias. Cada livro vendido ajuda ONGs que cuidam de animais.'},
+  {frase: 'O dinheiro das vendas fica com o projeto.', resp: 'MITO', expl: '100% vai para ONGs e protetores de animais. Em 9 meses, foram R$\u00a044.450 doados.'},
+  {frase: 'Os livros doados vão para bibliotecas e hospitais.', resp: 'VERDADE', expl: 'Bibliotecas públicas, hospitais e a Biblioteca BECEI, em Paraisópolis, que já recebeu 4.162 livros.'},
+  {frase: 'O Livros & Patinhas é outro projeto.', resp: 'MITO', expl: 'É a frente de vendas do Páginas Solidárias. Cada livro vendido ajuda ONGs e protetores de animais.'},
 ];
 export const P3_LAMINAS = 6;
 const Carimbo: React.FC<{resp: string}> = ({resp}) => {

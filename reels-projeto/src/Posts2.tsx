@@ -149,13 +149,13 @@ export const P5: React.FC = () => (
         </div>
       </div>
       <T size={42} peso={600} cor={COR.branco} style={{lineHeight: 1.32}}>
-        Os livros doados em bom estado são vendidos lá, e a renda vai para ONGs que cuidam de animais.
+        Os livros doados em bom estado são vendidos lá, e 100% da renda vai para ONGs e protetores de animais em situação de abandono.
       </T>
       <div style={{display: 'flex', alignItems: 'baseline', gap: 18}}>
         <T size={84} cor={COR.branco}>1.280</T>
         <T size={38} peso={700} cor="#CFE0F0">livros vendidos</T>
       </div>
-      <T size={34} peso={500} cor="#CFE0F0" style={{marginTop: -18}}>de dez/2025 a 9/11/2026</T>
+      <T size={34} peso={500} cor="#CFE0F0" style={{marginTop: -18}}>até 9/11/2026</T>
     </div>
     <div style={{position: 'absolute', left: M, right: M, bottom: M - 10, display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
       <div style={{backgroundColor: AZUL, color: COR.branco, fontFamily: SANS, fontWeight: 800, fontSize: 44, padding: '18px 44px', borderRadius: 999}}>

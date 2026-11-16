@@ -1,0 +1,192 @@
+{
+ "titulo": "Posts da semana de 16 a 22 de novembro",
+ "eyebrow": "Páginas Solidárias · Instagram",
+ "intro": "Aqui estão os 7 posts da semana, um por dia, e os 3 Stories de segunda, quarta e sexta, já com as suas mudanças. O vídeo de segunda conta a novidade dos 61 livros que chegaram no domingo, e o de domingo agora mostra o Cantinho da Leitura do Hospital Darcy Vargas.",
+ "pecas": [
+  {
+   "cod": "SEG",
+   "titulo": "Chegaram 61 livros",
+   "funcao": "Novidade da semana",
+   "formato": "Vídeo · 15 s",
+   "dia": "Segunda, 16/11",
+   "hora": "19h",
+   "ideia": "61 livros entram deslizando nas prateleiras, um por um, até formar o próprio número 61. Depois o número sobe e abre espaço para o obrigado.",
+   "tipo": "video",
+   "midia": [
+    "midia/SEG-v2.mp4"
+   ],
+   "capa": "midia/capa-SEG-v2.jpg",
+   "dica": "Com música e efeitos sonoros.",
+   "legenda": "Neste domingo chegaram 61 livros.\n\nAgora cada um passa pela triagem e ganha um destino. Os que dá para vender vão para o @livrosepatinhas, e 100% da renda vai para ONGs e protetores de animais em situação de abandono. Os que dá para ler de novo vão para bibliotecas públicas, hospitais e para a @biblioteca_becei, em Paraisópolis. E os que não têm mais jeito seguem para a reciclagem com a @tramahsustentabilidade.\n\nObrigado a quem doou.\n\nTem livro sobrando em casa? Livro, revista, gibi, apostila: tudo que tem páginas pode virar impacto. Manda no Direct ou fala com a gente pelo site, no link da bio. A gente responde rápido.\n\n#PáginasSolidárias #DoeLivros",
+   "versao": 2
+  },
+  {
+   "cod": "STORY-SEG",
+   "titulo": "Story: Chegaram 61 livros",
+   "funcao": "Chama para o vídeo de segunda",
+   "formato": "Story",
+   "dia": "Segunda, 16/11",
+   "hora": "20h",
+   "ideia": "Mostra a capa do vídeo novo e convida para ver no perfil.",
+   "tipo": "imagem",
+   "midia": [
+    "midia/STORY-SEG-v2.jpg"
+   ],
+   "alts": [
+    "Story: Chegaram 61 livros. Vídeo novo no perfil."
+   ],
+   "dica": "",
+   "legenda": "Sem texto: no Story vai só a imagem.",
+   "versao": 2
+  },
+  {
+   "titulo": "Como doar em 3 passos",
+   "formato": "Fotos · 5",
+   "tipo": "carrossel",
+   "midia": [
+    "midia/TER-1-v2.jpg",
+    "midia/TER-2-v2.jpg",
+    "midia/TER-3-v2.jpg",
+    "midia/TER-4-v2.jpg",
+    "midia/TER-5-v2.jpg"
+   ],
+   "funcao": "Pedido de doação",
+   "ideia": "Um guia para salvar: a linha que atravessa as fotos leva do livro na estante até a mensagem no Direct.",
+   "dica": "Arraste para o lado para ver as fotos.",
+   "legenda": "Guarda esse post para o dia de arrumar a estante.\n\n1. Junte os livros. Tudo que tem páginas serve: livro, revista, gibi, apostila, até os rabiscados e os rasgados.\n2. Mande uma mensagem no Direct ou pelo site, no link da bio. A gente responde rapidinho.\n3. A gente cuida do resto: triagem e um destino para cada livro.\n\nFicou alguma dúvida? Pergunta aqui nos comentários.\n\n#PáginasSolidárias #DoeLivros",
+   "cod": "TER",
+   "dia": "Terça, 17/11",
+   "hora": "12h30",
+   "versao": 2
+  },
+  {
+   "titulo": "Nada vai pro lixo",
+   "funcao": "Reciclagem",
+   "formato": "Vídeo · 14 s",
+   "tipo": "video",
+   "midia": [
+    "midia/QUA-v2.mp4"
+   ],
+   "capa": "midia/capa-QUA.jpg",
+   "ideia": "A pergunta \"Livro rasgado vai pro lixo?\" é riscada na tela. Folhas caem num medidor que enche até 2.465 kg, e o medidor vira o cartão da Tramah.",
+   "dica": "Com música e efeitos sonoros.",
+   "legenda": "Livro rasgado vai pro lixo? Aqui, não.\n\nO que não dá para ler nem vender segue para a reciclagem responsável com a @tramahsustentabilidade. Em 9 meses, foram 2.465 kg de papel reciclado.\n\nTudo que tem páginas pode virar impacto. Tem algum aí? Manda no Direct, a gente responde rapidinho.\n\n#PáginasSolidárias #Reciclagem #Sustentabilidade",
+   "cod": "QUA",
+   "dia": "Quarta, 18/11",
+   "hora": "19h",
+   "versao": 2
+  },
+  {
+   "cod": "STORY-QUA",
+   "titulo": "Story: Nada vai pro lixo",
+   "funcao": "Chama para o vídeo de quarta",
+   "formato": "Story",
+   "dia": "Quarta, 18/11",
+   "hora": "20h",
+   "ideia": "Faz a pergunta do vídeo e mostra o medidor de papel reciclado.",
+   "tipo": "imagem",
+   "midia": [
+    "midia/STORY-QUA-v2.jpg"
+   ],
+   "alts": [
+    "Story: Livro rasgado vai pro lixo? A resposta está no vídeo de hoje."
+   ],
+   "dica": "",
+   "legenda": "Sem texto: no Story vai só a imagem.",
+   "versao": 2
+  },
+  {
+   "titulo": "Comprar um livro também ajuda um animal",
+   "funcao": "Venda solidária",
+   "formato": "Foto única",
+   "tipo": "imagem",
+   "midia": [
+    "midia/QUI-v3.jpg"
+   ],
+   "alts": [
+    "Comprar um livro também ajuda um animal"
+   ],
+   "ideia": "Um convite para conhecer o @livrosepatinhas, a parte do projeto que vende os livros, e para onde vai o dinheiro.",
+   "dica": "",
+   "legenda": "Comprar um livro usado também ajuda um animal.\n\nNo @livrosepatinhas, a frente de vendas do Páginas Solidárias, os livros doados em bom estado ganham novos leitores, e 100% da renda vai para ONGs e protetores de animais em situação de abandono. Em 9 meses, foram 1.280 livros vendidos.\n\nPara comprar, é só mandar uma mensagem no Direct do @livrosepatinhas. A gente envia pelo correio, com selo e pacote caprichado.\n\n#LivrosEPatinhas #PáginasSolidárias",
+   "cod": "QUI",
+   "dia": "Quinta, 19/11",
+   "hora": "12h30",
+   "versao": 2
+  },
+  {
+   "titulo": "Um livro, três destinos",
+   "formato": "Vídeo · 15 s",
+   "tipo": "video",
+   "midia": [
+    "midia/SEX-v2.mp4"
+   ],
+   "capa": "midia/capa-SEX.jpg",
+   "funcao": "Explicar o projeto",
+   "ideia": "Um único livro cai na tela, passa pela triagem e se divide em três: vendido, doado e reciclado. No fim, os três se juntam e viram o ícone da marca.",
+   "dica": "Com música e efeitos sonoros.",
+   "legenda": "Todo livro que chega aqui passa pela triagem e ganha um destino.\n\nSe dá para vender, vai para o @livrosepatinhas, e a renda ajuda ONGs e protetores de animais em situação de abandono.\nSe dá para ler de novo, vai para bibliotecas públicas, hospitais e para a @biblioteca_becei, em Paraisópolis.\nSe está rasgado ou rabiscado, segue para a reciclagem responsável com a @tramahsustentabilidade.\n\nNenhum livro fica parado. Tem algum aí na estante? Manda no Direct ou fala com a gente pelo site, no link da bio.\n\n#PáginasSolidárias #DoeLivros #LivrosQueTransformam",
+   "cod": "SEX",
+   "dia": "Sexta, 20/11",
+   "hora": "19h",
+   "versao": 2
+  },
+  {
+   "cod": "STORY-SEX",
+   "titulo": "Story: Um livro, três destinos",
+   "funcao": "Chama para o vídeo de sexta",
+   "formato": "Story",
+   "dia": "Sexta, 20/11",
+   "hora": "20h",
+   "ideia": "Pergunta para onde vai o livro de quem doa e mostra os três caminhos.",
+   "tipo": "imagem",
+   "midia": [
+    "midia/STORY-SEX.jpg"
+   ],
+   "alts": [
+    "Story: Para onde vai o seu livro? São três caminhos."
+   ],
+   "dica": "",
+   "legenda": "Sem texto: no Story vai só a imagem.",
+   "versao": 1
+  },
+  {
+   "titulo": "Verdade ou mito?",
+   "formato": "Fotos · 6",
+   "tipo": "carrossel",
+   "midia": [
+    "midia/SAB-1-v3.jpg",
+    "midia/SAB-2-v3.jpg",
+    "midia/SAB-3-v3.jpg",
+    "midia/SAB-4-v3.jpg",
+    "midia/SAB-5-v3.jpg",
+    "midia/SAB-6-v3.jpg"
+   ],
+   "funcao": "Engajamento",
+   "ideia": "Um quiz que corrige as dúvidas mais comuns sobre doação e pede para a pessoa contar nos comentários quantas acertou.",
+   "dica": "Arraste para o lado para ver as fotos.",
+   "legenda": "Verdade ou mito? Arrasta para ver as respostas e conta aqui nos comentários quantas você acertou.\n\nUma dica: tudo que tem páginas pode virar impacto.\n\n#PáginasSolidárias #DoeLivros",
+   "cod": "SAB",
+   "dia": "Sábado, 21/11",
+   "hora": "10h30",
+   "versao": 2
+  },
+  {
+   "titulo": "A estante do obrigado",
+   "funcao": "Agradecimento",
+   "formato": "Vídeo · 24 s",
+   "tipo": "video",
+   "midia": [
+    "midia/DOM-v3.mp4"
+   ],
+   "capa": "midia/capa-DOM-v3.jpg",
+   "ideia": "A câmera passeia por uma estante; em cada parada um livro sai da prateleira com um número dos 9 meses, agora com o Cantinho da Leitura do Hospital Darcy Vargas. No fim, um livro deitado diz obrigado.",
+   "dica": "Com música e efeitos sonoros.",
+   "legenda": "9 meses na estante, e cada número tem gente por trás:\n\n1.280 livros vendidos no @livrosepatinhas\n4.162 livros doados à @biblioteca_becei\nMais de 200 livros infantis no Cantinho da Leitura Páginas Solidárias, que a gente criou dentro do @hi.darcyvargas\n2.465 kg de papel reciclado com a @tramahsustentabilidade\nR$ 44.450 arrecadados e 100% doados a ONGs e protetores de animais\n38 projetos beneficiados\n\nAlém da BECEI, os livros doados também vão para bibliotecas públicas e hospitais.\n\nObrigado a quem doou, comprou e ajudou. Bora para os próximos meses?\n\nDados até 9 de novembro de 2026.\n#PáginasSolidárias #Obrigado",
+   "cod": "DOM",
+   "dia": "Domingo, 22/11",
+   "hora": "10h30",
+   "versao": 2
+  }
+ ]
+}

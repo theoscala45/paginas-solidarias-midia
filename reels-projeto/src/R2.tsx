@@ -152,7 +152,7 @@ export const R2: React.FC = () => {
             <Icone w={150} branco />
           </div>
           <T size={36} peso={500} cor={COR.cremeEscuro} style={{position: 'absolute', top: 1430, opacity: k(f, [350, 362], [0, 1])}}>
-            Dados de dez/2025 a 9/11/2026
+            Dados até 9/11/2026
           </T>
         </AbsoluteFill>
       )}

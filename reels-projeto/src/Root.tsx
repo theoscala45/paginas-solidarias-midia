@@ -8,12 +8,18 @@ import {R4, R4_DURACAO} from './R4';
 import {R5, R5_DURACAO} from './R5';
 import {P1, P1_LAMINAS, P2, P3, P3_LAMINAS} from './Posts';
 import {P4, P4_LAMINAS, P5} from './Posts2';
+import {S46, S46_DURACAO} from './S46';
+import {StorySeg, StoryQua, StorySex} from './Stories';
 import {carregarFontes} from './brand';
 
 carregarFontes();
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Still id="StorySeg" component={StorySeg} width={1080} height={1920} />
+    <Still id="StoryQua" component={StoryQua} width={1080} height={1920} />
+    <Still id="StorySex" component={StorySex} width={1080} height={1920} />
+    <Composition id="S46" component={S46} durationInFrames={S46_DURACAO} fps={30} width={1080} height={1920} />
     <Composition id="Teste" component={Teste} durationInFrames={TESTE_DURACAO} fps={30} width={1080} height={1920} />
     <Still id="P4" component={P4} width={1080 * P4_LAMINAS} height={1350} />
     <Still id="P5" component={P5} width={1080} height={1350} />

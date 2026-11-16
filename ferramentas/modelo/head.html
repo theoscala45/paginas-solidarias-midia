@@ -65,4 +65,11 @@
   footer { font-size: 13px; color: var(--oliva); max-width: 66ch; line-height: 1.5; }
   @media (prefers-reduced-motion: reduce) { video { animation: none; } }
 </style>
+<style>
+main { grid-template-columns: minmax(0, 1fr); }
+main > *, .peca > * { min-width: 0; }
+code { white-space: normal; overflow-wrap: anywhere; }
+.agenda-wrap { overflow-x: auto; }
+@media (max-width: 760px) { .peca { grid-template-columns: minmax(0, 1fr); } }
+</style>
 </head>

@@ -211,10 +211,10 @@ export const R1: React.FC = () => {
 
       <Legenda f={f} entra={112} sai={160} saiTipo="slide"
         icone={<Bolinha cor={COR.terracota}><Pata size={78} /></Bolinha>}
-        titulo="Vendido" sub="no Livros & Patinhas" texto="A renda vai para ONGs que cuidam de animais." />
+        titulo="Vendido" sub="no Livros & Patinhas" texto="A renda vai para ONGs e protetores de animais." />
       <Legenda f={f} entra={176} sai={242} saiTipo="corte"
         icone={<Bolinha cor={COR.oliva}><Biblioteca size={78} /></Bolinha>}
-        titulo="Doado" sub="à Biblioteca BECEI" texto="Livros que ganham novos leitores em Paraisópolis." />
+        titulo="Doado" sub="a bibliotecas e hospitais" texto="Bibliotecas públicas, hospitais e a Biblioteca BECEI, em Paraisópolis." />
       <Legenda f={f} entra={258} sai={300} saiTipo="queda"
         icone={<Bolinha cor={COR.olivaEscuro}><Reciclar size={78} /></Bolinha>}
         titulo="Reciclado" sub="com a Tramah" texto="Rasgado ou rabiscado? Vira reciclagem responsável." />

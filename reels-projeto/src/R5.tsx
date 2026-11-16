@@ -4,24 +4,25 @@ import {COR, SANS} from './brand';
 import {T, k, mola} from './lib';
 
 // TST-R5 · A estante do obrigado
-// Conceito: a câmera passeia por uma estante; em cada parada um livro é puxado e mostra um número dos 11 meses.
+// Conceito: a câmera passeia por uma estante; em cada parada um livro é puxado e mostra um número dos 9 meses.
 // O último livro, deitado no fim da prateleira, diz "obrigado", e a câmera se aproxima dele.
-export const R5_DURACAO = 600;
+export const R5_DURACAO = 712;
 
 const suaveIO = Easing.inOut(Easing.cubic);
 const PRATELEIRA_Y = 1320; // topo da tábua
-const MUNDO_W = 5600;
+const MUNDO_W = 6300;
 
 type Parada = {x: number; chega: number; sai: number; n: string; t: string; cor: string};
 const PARADAS: Parada[] = [
   {x: 1000, chega: 72, sai: 132, n: '1.280', t: 'livros vendidos no Livros & Patinhas', cor: COR.terracota},
   {x: 1900, chega: 164, sai: 234, n: '4.162', t: 'livros doados à Biblioteca BECEI', cor: COR.oliva},
-  {x: 2400, chega: 248, sai: 296, n: '2.465 kg', t: 'de papel reciclado com a Tramah', cor: COR.olivaEscuro},
-  {x: 3400, chega: 330, sai: 400, n: 'R$ 44.450', t: 'arrecadados e 100% doados', cor: COR.terracota},
-  {x: 4200, chega: 428, sai: 476, n: '38', t: 'projetos beneficiados', cor: COR.oliva},
+  {x: 2500, chega: 262, sai: 332, n: '+200', t: 'livros infantis no Cantinho da Leitura do Hospital Darcy Vargas', cor: COR.terracota},
+  {x: 3100, chega: 360, sai: 408, n: '2.465 kg', t: 'de papel reciclado com a Tramah', cor: COR.olivaEscuro},
+  {x: 4100, chega: 442, sai: 512, n: 'R$ 44.450', t: 'arrecadados e 100% doados', cor: COR.terracota},
+  {x: 4900, chega: 540, sai: 588, n: '38', t: 'projetos beneficiados', cor: COR.oliva},
 ];
-const FIM_X = 5050;
-const FIM_CHEGA = 506;
+const FIM_X = 5750;
+const FIM_CHEGA = 618;
 
 // câmera: x do mundo que fica no centro da tela
 const camX = (f: number) => {
@@ -44,16 +45,20 @@ const LOMBADAS: Lombada[] = (() => {
   let x = 60;
   let i = 0;
   while (x < FIM_X - 260) {
-    const marco = PARADAS.findIndex((p) => Math.abs(p.x - (x + 40)) < 45);
-    if (marco >= 0 && !out.some((l) => l.marco === marco)) {
+    const w0 = 46 + Math.floor(random(`w${i}`) * 54);
+    const marco = PARADAS.findIndex((p, idx) => !out.some((l) => l.marco === idx) && x + w0 + 6 > p.x - 55);
+    if (marco >= 0) {
+      const resto = PARADAS[marco].x - 55 - 6 - x; // completa o espaço até o livro marcado
+      if (resto >= 30) out.push({x, w: resto, h: 250 + Math.floor(random(`h${i}`) * 130), cor: CORES[Math.floor(random(`c${i}`) * CORES.length)]});
       out.push({x: PARADAS[marco].x - 55, w: 110, h: 420, cor: PARADAS[marco].cor, marco});
       x = PARADAS[marco].x + 55 + 6;
+      i++;
       continue;
     }
-    const w = 46 + Math.floor(random(`w${i}`) * 54);
-    const h = 250 + Math.floor(random(`h${i}`) * 130);
-    out.push({x, w, h, cor: CORES[Math.floor(random(`c${i}`) * CORES.length)]});
-    x += w + 6;
+    // perto do fim, livros baixos: no zoom final eles não podem invadir o texto do obrigado
+    const h = x > FIM_X - 700 ? 150 + Math.floor(random(`h${i}`) * 70) : 250 + Math.floor(random(`h${i}`) * 130);
+    out.push({x, w: w0, h, cor: CORES[Math.floor(random(`c${i}`) * CORES.length)]});
+    x += w0 + 6;
     i++;
   }
   return out;
@@ -110,7 +115,7 @@ export const R5: React.FC = () => {
       {f < 66 && (
         <div style={{position: 'absolute', top: 440, left: 80, right: 120, textAlign: 'center',
           opacity: 1 - k(f, [44, 58], [0, 1], suaveIO), translate: `0px ${-40 * k(f, [44, 58], [0, 1], suaveIO)}px`}}>
-          <T size={110}>11 meses</T>
+          <T size={110}>9 meses</T>
           <T size={120} serif cor={COR.terracota}>na estante</T>
         </div>
       )}
@@ -126,7 +131,7 @@ export const R5: React.FC = () => {
           <div style={{position: 'absolute', top: 430, left: 80, right: 120, textAlign: 'center', opacity: op,
             translate: `0px ${20 * (1 - entra) - 20 * sai}px`}}>
             <T size={Math.min(150, 860 / (p.n.length * 0.66))} cor={p.cor} style={{fontVariantNumeric: 'tabular-nums'}}>{p.n}</T>
-            <T size={50} peso={700} cor={COR.olivaEscuro} style={{marginTop: 10}}>{p.t}</T>
+            <T size={p.t.length > 45 ? 46 : 50} peso={700} cor={COR.olivaEscuro} style={{marginTop: 10, textWrap: 'balance'} as React.CSSProperties}>{p.t}</T>
           </div>
         );
       })()}
@@ -134,11 +139,11 @@ export const R5: React.FC = () => {
       {/* final */}
       {f >= FIM_CHEGA + 20 && (
         <>
-          <div style={{position: 'absolute', top: 400, left: 80, right: 120, textAlign: 'center'}}>
+          <div style={{position: 'absolute', top: 400, left: 80, right: 120, textAlign: 'center', zIndex: 10}}>
             <T size={150} serif cor={COR.terracota} style={{opacity: k(f, [FIM_CHEGA + 20, FIM_CHEGA + 36], [0, 1]),
               scale: String(0.96 + 0.04 * mola(f, fps, FIM_CHEGA + 20, 20, 120))}}>Obrigado</T>
             <T size={58} peso={700} cor={COR.olivaEscuro} style={{marginTop: 14, opacity: k(f, [FIM_CHEGA + 34, FIM_CHEGA + 48], [0, 1])}}>
-              a quem doou, comprou<br />e ajudou nesses 11 meses.
+              a quem doou, comprou<br />e ajudou nesses 9 meses.
             </T>
           </div>
           <div style={{position: 'absolute', top: 1210, left: 0, right: 0, display: 'flex', flexDirection: 'column', alignItems: 'center',

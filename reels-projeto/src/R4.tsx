@@ -117,7 +117,7 @@ export const R4: React.FC = () => {
           <T size={110} serif cor={COR.terracota} style={{marginTop: 4}}>kg</T>
           <div style={{height: 14, borderRadius: 7, backgroundColor: COR.terracota, marginTop: 18, width: 380 * k(f, [230, 244], [0, 1], Easing.out(Easing.cubic))}} />
           <T size={50} peso={700} cor={COR.olivaEscuro} style={{marginTop: 24, opacity: k(f, [236, 250], [0, 1])}}>de papel reciclado</T>
-          <T size={40} peso={500} cor={COR.olivaEscuro} style={{marginTop: 8, opacity: k(f, [242, 256], [0, 1])}}>em 11 meses</T>
+          <T size={40} peso={500} cor={COR.olivaEscuro} style={{marginTop: 8, opacity: k(f, [242, 256], [0, 1])}}>em 9 meses</T>
         </div>
       )}
 

@@ -1,0 +1,14 @@
+{"dur": 23.73,
+ "eventos": [
+  [2.27, "deslizar.wav", -10, null],
+  [5.33, "deslizar.wav", -10, null],
+  [8.6, "deslizar.wav", -10, null],
+  [11.87, "deslizar.wav", -10, null],
+  [14.6, "deslizar.wav", -10, null],
+  [17.87, "deslizar.wav", -10, null],
+  [20.73, "short-wind-swoosh.wav", -16, 0.8],
+  [21.27, "sino.wav", -8, null],
+  [22.27, "message-pop-alert.mp3", -10, null]
+ ],
+ "musica": {"arquivo": "/home/claude/musica/biblioteca/norm/obrigado-original.wav", "inicio": 0.0, "ganho_db": -9}
+}

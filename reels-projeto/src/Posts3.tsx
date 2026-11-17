@@ -17,18 +17,17 @@ const Lamina: React.FC<{i: number; fundo: string; children?: React.ReactNode}> =
 );
 
 const DESTINOS = [
-  {n: 60, nome: 'Livros & Patinhas', sub: 'renda para ONGs e protetores de animais', cor: COR.terracota, escura: '#8E4426'},
+  {n: 89, nome: 'Livros & Patinhas', sub: 'renda para ONGs e protetores de animais', cor: COR.terracota, escura: '#8E4426'},
   {n: 37, nome: 'Biblioteca BECEI', sub: 'em Paraisópolis', cor: COR.oliva, escura: '#474C27'},
   {n: 67, nome: 'Cantinho da Leitura Páginas Solidárias', sub: 'no Hospital Infantil Darcy Vargas', cor: COR.olivaEscuro, escura: '#2C3018'},
-  {n: 29, nome: 'Cultura Inglesa de Paraisópolis', sub: 'projeto totalmente social', cor: '#8A8F5A', escura: '#666B3E'},
   {n: 5, nome: 'Reciclagem', sub: 'com a Tramah Sustentabilidade', cor: '#C9BBA0', escura: '#A89A7E'},
 ];
 
-// uma lombada fina por livro (10 px + 3 px de espaço: 67 livros = 871 px)
+// uma lombada fina por livro (7 px + 3 px de espaço: 89 livros = 890 px)
 const Prateleira: React.FC<{n: number; cor: string; escura: string; seed: string}> = ({n, cor, escura, seed}) => (
   <div style={{display: 'flex', alignItems: 'flex-end', gap: 3, height: 54, borderBottom: `6px solid ${COR.olivaEscuro}`, paddingBottom: 0}}>
     {Array.from({length: n}).map((_, i) => (
-      <div key={i} style={{width: 10, height: 36 + Math.floor(random(`${seed}${i}`) * 18), borderRadius: 3,
+      <div key={i} style={{width: 7, height: 36 + Math.floor(random(`${seed}${i}`) * 18), borderRadius: 3,
         backgroundColor: random(`${seed}c${i}`) > 0.7 ? escura : cor}} />
     ))}
   </div>
@@ -52,11 +51,11 @@ export const P6: React.FC = () => (
     <Lamina i={1} fundo={COR.creme}>
       <T size={40} peso={800} cor={COR.terracota} style={{letterSpacing: 4}}>PARA ONDE VÃO OS 198</T>
       <T size={32} peso={600} cor={COR.oliva} style={{marginTop: 8}}>Cada tracinho é um livro.</T>
-      <div style={{marginTop: 30, display: 'flex', flexDirection: 'column', gap: 20}}>
+      <div style={{marginTop: 44, display: 'flex', flexDirection: 'column', gap: 44}}>
         {DESTINOS.map((d, i) => (
           <div key={d.nome}>
             <div style={{display: 'flex', alignItems: 'baseline', gap: 22}}>
-              <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 76, lineHeight: 1, color: d.n === 67 ? COR.terracota : COR.olivaEscuro,
+              <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 76, lineHeight: 1, color: d.n === 89 ? COR.terracota : COR.olivaEscuro,
                 minWidth: 110, fontVariantNumeric: 'tabular-nums'}}>{d.n}</div>
               <div>
                 <T size={44} peso={800} cor={COR.olivaEscuro}>{d.nome}</T>

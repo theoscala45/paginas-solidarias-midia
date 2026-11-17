@@ -17,13 +17,13 @@ const Lamina: React.FC<{i: number; fundo: string; children?: React.ReactNode}> =
 );
 
 const DESTINOS = [
-  {n: 89, nome: 'Livros & Patinhas', sub: 'renda para ONGs e protetores de animais', cor: COR.terracota, escura: '#8E4426'},
-  {n: 37, nome: 'Biblioteca BECEI', sub: 'em Paraisópolis', cor: COR.oliva, escura: '#474C27'},
+  {n: 79, nome: 'Livros & Patinhas', sub: 'renda para ONGs e protetores de animais', cor: COR.terracota, escura: '#8E4426'},
+  {n: 47, nome: 'Biblioteca BECEI', sub: 'em Paraisópolis', cor: COR.oliva, escura: '#474C27'},
   {n: 67, nome: 'Cantinho da Leitura Páginas Solidárias', sub: 'no Hospital Infantil Darcy Vargas', cor: COR.olivaEscuro, escura: '#2C3018'},
   {n: 5, nome: 'Reciclagem', sub: 'com a Tramah Sustentabilidade', cor: '#C9BBA0', escura: '#A89A7E'},
 ];
 
-// uma lombada fina por livro (7 px + 3 px de espaço: 89 livros = 890 px)
+// uma lombada fina por livro (7 px + 3 px de espaço: 79 livros = 790 px)
 const Prateleira: React.FC<{n: number; cor: string; escura: string; seed: string}> = ({n, cor, escura, seed}) => (
   <div style={{display: 'flex', alignItems: 'flex-end', gap: 3, height: 54, borderBottom: `6px solid ${COR.olivaEscuro}`, paddingBottom: 0}}>
     {Array.from({length: n}).map((_, i) => (
@@ -55,7 +55,7 @@ export const P6: React.FC = () => (
         {DESTINOS.map((d, i) => (
           <div key={d.nome}>
             <div style={{display: 'flex', alignItems: 'baseline', gap: 22}}>
-              <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 76, lineHeight: 1, color: d.n === 89 ? COR.terracota : COR.olivaEscuro,
+              <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 76, lineHeight: 1, color: d.n === 79 ? COR.terracota : COR.olivaEscuro,
                 minWidth: 110, fontVariantNumeric: 'tabular-nums'}}>{d.n}</div>
               <div>
                 <T size={44} peso={800} cor={COR.olivaEscuro}>{d.nome}</T>

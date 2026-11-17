@@ -1,7 +1,7 @@
 {
  "titulo": "Posts da semana de 16 a 22 de novembro",
  "eyebrow": "Páginas Solidárias · Instagram",
- "intro": "Aqui estão os 7 posts da semana, um por dia, e os 3 Stories de segunda, quarta e sexta, já com as suas mudanças. O vídeo de segunda conta a novidade dos 61 livros que chegaram no domingo, e o de domingo agora mostra o Cantinho da Leitura do Hospital Darcy Vargas.",
+ "intro": "Os 7 posts e os 3 Stories da semana já estão agendados. Novo nesta página: o post \"Para onde vão os 198 livros\", para terça, 17, às 19h, com os livros que chegaram na segunda.",
  "pecas": [
   {
    "cod": "SEG",
@@ -58,6 +58,31 @@
    "dia": "Terça, 17/11",
    "hora": "12h30",
    "versao": 2
+  },
+  {
+   "cod": "TER-EXTRA",
+   "titulo": "Para onde vão os 198 livros",
+   "funcao": "Novidade de segunda",
+   "formato": "Carrossel · 4 lâminas",
+   "dia": "Terça, 17/11",
+   "hora": "19h",
+   "versao": 3,
+   "ideia": "Cada um dos 198 livros vira um tracinho, e eles se dividem em cinco prateleiras, uma para cada destino. Depois vem a foto do Cantinho da Leitura e o obrigado.",
+   "tipo": "carrossel",
+   "midia": [
+    "midia/TER-198-1.jpg",
+    "midia/TER-198-2b.jpg",
+    "midia/TER-198-3.jpg",
+    "midia/TER-198-4.jpg"
+   ],
+   "alts": [
+    "198 livros chegaram num dia só.",
+    "Para onde vão os 198: 60 Livros & Patinhas, 37 Biblioteca BECEI, 67 Cantinho da Leitura Páginas Solidárias, 29 Cultura Inglesa de Paraisópolis, 5 reciclagem.",
+    "Foto do Cantinho da Leitura Páginas Solidárias: 67 livros para o Hospital Infantil Darcy Vargas.",
+    "Obrigado a quem doou. Manda no Direct."
+   ],
+   "dica": "Carrossel sem música.",
+   "legenda": "Nesta segunda, 16 de novembro, chegaram 198 livros. E cada um já tem destino:\n\n60 vão para o @livrosepatinhas, e 100% da renda vai para ONGs e protetores de animais em situação de abandono\n37 vão para a @biblioteca_becei, em Paraisópolis\n67 vão para o Cantinho da Leitura Páginas Solidárias, que a gente criou dentro do @hi.darcyvargas\n29 vão para a Cultura Inglesa de Paraisópolis, um projeto totalmente social\n5 seguem para a reciclagem com a @tramahsustentabilidade\n\nObrigado a quem doou!\n\nTem livro parado aí? Tudo que tem páginas pode virar impacto. Manda no Direct ou fala com a gente pelo site, no link da bio.\n\n#PáginasSolidárias #DoeLivros"
   },
   {
    "titulo": "Nada vai pro lixo",

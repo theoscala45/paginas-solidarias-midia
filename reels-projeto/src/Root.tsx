@@ -10,12 +10,16 @@ import {P1, P1_LAMINAS, P2, P3, P3_LAMINAS} from './Posts';
 import {P4, P4_LAMINAS, P5} from './Posts2';
 import {S46, S46_DURACAO} from './S46';
 import {StorySeg, StoryQua, StorySex} from './Stories';
+import {P6, P6_LAMINAS} from './Posts3';
+import {P1D, P1D_LAMINAS} from './Posts4';
 import {carregarFontes} from './brand';
 
 carregarFontes();
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Still id="P1D" component={P1D} width={1080 * P1D_LAMINAS} height={1350} />
+    <Still id="P6" component={P6} width={1080 * P6_LAMINAS} height={1350} />
     <Still id="StorySeg" component={StorySeg} width={1080} height={1920} />
     <Still id="StoryQua" component={StoryQua} width={1080} height={1920} />
     <Still id="StorySex" component={StorySex} width={1080} height={1920} />

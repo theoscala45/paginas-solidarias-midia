@@ -1,0 +1,209 @@
+{
+ "titulo": "Posts da semana de 23 a 29 de novembro",
+ "eyebrow": "Páginas Solidárias · Instagram",
+ "intro": "Aqui estão os 7 posts da semana e os 3 Stories. Os vídeos têm músicas mais animadas, segunda virou \"Chegou doação!\", e o \"Quem somos\" do Livros & Patinhas vem na quarta, antes do vídeo do acervo, que passou para quinta (com o Story logo depois).",
+ "pecas": [
+  {
+   "cod": "SEG",
+   "titulo": "Chegou doação!",
+   "funcao": "Novidade da semana",
+   "formato": "Vídeo · 16 s",
+   "dia": "Segunda, 23/11",
+   "hora": "19h",
+   "tipo": "video",
+   "ideia": "Um balão de aviso diz \"Chegou doação!\". Dentro dele passam, rapidinho, caixas, sacolas e pilhas; o balão se abre e vira a moldura da foto das caixas. Depois: agora começa a triagem, e cada livro ganha um destino.",
+   "midia": [
+    "midia/SEG-v3.mp4"
+   ],
+   "capa": "midia/capa-SEG-v3.jpg",
+   "dica": "Com música animada e efeitos sonoros.",
+   "legenda": "Chegou doação!\n\nCaixas, sacolas e pilhas de livros. Agora começa a triagem, e cada livro ganha um destino: venda no @livrosepatinhas, com a renda para ONGs e protetores de animais em situação de abandono, doação para bibliotecas e hospitais, ou reciclagem com a @tramahsustentabilidade.\n\nObrigado a quem doou!\n\nTem livro parado aí? Tudo que tem páginas pode virar impacto. Manda no Direct ou fala com a gente pelo site, no link da bio.\n\n#PáginasSolidárias #DoeLivros",
+   "versao": 2
+  },
+  {
+   "cod": "STORY-SEG",
+   "titulo": "Story: Chegou doação!",
+   "funcao": "Chama para o vídeo de segunda",
+   "formato": "Story",
+   "dia": "Segunda, 23/11",
+   "hora": "20h",
+   "tipo": "imagem",
+   "ideia": "Mostra a capa do vídeo novo e convida para ver no perfil.",
+   "midia": [
+    "midia/STORY-SEG-v3.jpg"
+   ],
+   "alts": [
+    "Story: Chegou doação! Cada livro vai ganhar um destino."
+   ],
+   "dica": "",
+   "legenda": "Sem texto: no Story vai só a imagem.",
+   "versao": 2
+  },
+  {
+   "cod": "TER",
+   "titulo": "Cantinho da Leitura Páginas Solidárias",
+   "funcao": "O Cantinho no hospital",
+   "formato": "Carrossel · 4 lâminas",
+   "dia": "Terça, 24/11",
+   "hora": "12h30",
+   "tipo": "carrossel",
+   "ideia": "Da entrada do hospital até a estante do Cantinho: as suas duas fotos, os mais de 200 livros infantis e a frase da placa, \"Pequenos leitores. Grandes futuros.\"",
+   "midia": [
+    "midia/TER-1.jpg",
+    "midia/TER-2.jpg",
+    "midia/TER-3.jpg",
+    "midia/TER-4.jpg"
+   ],
+   "alts": [
+    "Dentro de um hospital, um cantinho só para histórias.",
+    "Foto do Cantinho da Leitura Páginas Solidárias, no Hospital Infantil Darcy Vargas.",
+    "Mais de 200 livros infantis já foram para o Cantinho. Pequenos leitores. Grandes futuros.",
+    "Tem livro infantil parado aí? Manda no Direct."
+   ],
+   "dica": "Carrossel sem música.",
+   "legenda": "Dentro do Hospital Infantil Darcy Vargas, existe um cantinho só para histórias: o Cantinho da Leitura Páginas Solidárias, que a gente criou para os pequenos leitores do hospital.\n\nAté agora, mais de 200 livros infantis já foram para lá.\n\nPequenos leitores. Grandes futuros.\n\nTem livro infantil parado aí? Manda no Direct ou fala com a gente pelo site, no link da bio.\n\n#PáginasSolidárias #CantinhoDaLeitura #DoeLivros",
+   "versao": 1
+  },
+  {
+   "cod": "QUI",
+   "titulo": "Quem somos: Livros & Patinhas",
+   "funcao": "Apresenta o Livros & Patinhas",
+   "formato": "Foto única",
+   "dia": "Quarta, 25/11",
+   "hora": "19h",
+   "tipo": "imagem",
+   "versao": 1,
+   "ideia": "A imagem que você mandou, apresentando o Livros & Patinhas. Ela vem antes do vídeo do acervo de quinta: primeiro as pessoas conhecem o projeto, depois veem as estantes.",
+   "midia": [
+    "midia/QUI-quem-somos.jpg"
+   ],
+   "alts": [
+    "Quem somos: o Livros & Patinhas é um projeto social dentro do Páginas Solidárias. 100% da renda vai para ONGs e protetores de animais em situação de abandono."
+   ],
+   "dica": "",
+   "legenda": "Você conhece o @livrosepatinhas?\n\nÉ um projeto social dentro do Páginas Solidárias: os livros doados em bom estado ganham novos leitores, e 100% da renda vai para ONGs e protetores de animais em situação de abandono.\n\nTrês jeitos de ajudar:\nDoe livros: manda no Direct ou pelo site, no link da bio\nCompre no Livros & Patinhas: chama no Direct do @livrosepatinhas\nDivulgue: compartilhe este post e siga o @livrosepatinhas\n\n#LivrosEPatinhas #PáginasSolidárias"
+  },
+  {
+   "cod": "QUA",
+   "titulo": "O acervo do Livros & Patinhas",
+   "funcao": "Venda que ajuda os animais",
+   "formato": "Vídeo · 16 s",
+   "dia": "Quinta, 26/11",
+   "hora": "12h30",
+   "tipo": "video",
+   "ideia": "A câmera passeia pelas estantes das suas fotos. Um cartão conta que todos os livros foram doados pelo Páginas Solidárias e depois vira o passo a passo de como comprar.",
+   "midia": [
+    "midia/QUA-v6.mp4"
+   ],
+   "capa": "midia/capa-QUA.jpg",
+   "dica": "Com música animada e efeitos sonoros.",
+   "legenda": "Esse é o acervo do @livrosepatinhas: todos esses livros foram doados pelo Páginas Solidárias, e cada um está esperando um novo leitor.\n\nComo comprar:\n1. Escolha pelo Direct do @livrosepatinhas\n2. A gente envia pelo correio, em pacote caprichado, normalmente com marca-páginas e alguns mimos\n3. 100% da renda vai para ONGs e protetores de animais em situação de abandono\n\nComprar um livro aqui também ajuda um animal.\n\n#LivrosEPatinhas #PáginasSolidárias",
+   "versao": 5
+  },
+  {
+   "cod": "STORY-QUA",
+   "titulo": "Story: O acervo do Livros & Patinhas",
+   "funcao": "Chama para o vídeo de quinta",
+   "formato": "Story",
+   "dia": "Quinta, 26/11",
+   "hora": "13h30",
+   "tipo": "imagem",
+   "ideia": "Pergunta se a pessoa já viu o acervo e mostra a capa do vídeo.",
+   "midia": [
+    "midia/STORY-QUA.jpg"
+   ],
+   "alts": [
+    "Story: Já viu o acervo do Livros & Patinhas? Cada compra ajuda um animal."
+   ],
+   "dica": "",
+   "legenda": "Sem texto: no Story vai só a imagem.",
+   "versao": 1
+  },
+  {
+   "cod": "SEX",
+   "titulo": "Fim de ano, estante arrumada",
+   "funcao": "Pedido de doação",
+   "formato": "Vídeo · 17 s",
+   "dia": "Sexta, 27/11",
+   "hora": "19h",
+   "tipo": "video",
+   "ideia": "Um calendário de 2026 vira de novembro para dezembro e se transforma numa prateleira. Os livros caem tortos e se arrumam; os que sobram saem da estante e vão, um por um, para os destinos do projeto.",
+   "midia": [
+    "midia/SEX-v4.mp4"
+   ],
+   "capa": "midia/capa-SEX.jpg",
+   "dica": "Com música animada e efeitos sonoros.",
+   "legenda": "O ano está acabando, e é hora de arrumar a estante.\n\nE os livros que sobraram? A gente encaminha cada um para um destino:\n@livrosepatinhas, e a renda vai para ONGs e protetores de animais em situação de abandono\nBibliotecas públicas\nHospitais, como o Cantinho da Leitura Páginas Solidárias\n@biblioteca_becei, em Paraisópolis\nReciclagem com a @tramahsustentabilidade\n\nDoe para quem precisa. Tudo que tem páginas pode virar impacto. Manda no Direct ou fala com a gente pelo site, no link da bio.\n\n#PáginasSolidárias #DoeLivros #FimDeAno",
+   "versao": 4
+  },
+  {
+   "cod": "STORY-SEX",
+   "titulo": "Story: Fim de ano, estante arrumada",
+   "funcao": "Chama para o vídeo de sexta",
+   "formato": "Story",
+   "dia": "Sexta, 27/11",
+   "hora": "20h",
+   "tipo": "imagem",
+   "ideia": "Fim de ano, estante arrumada, e o que sobrou vai para quem precisa.",
+   "midia": [
+    "midia/STORY-SEX.jpg"
+   ],
+   "alts": [
+    "Story: Fim de ano, estante arrumada. E o que sobrou vai para quem precisa."
+   ],
+   "dica": "",
+   "legenda": "Sem texto: no Story vai só a imagem.",
+   "versao": 1
+  },
+  {
+   "cod": "SAB",
+   "titulo": "Qual livro marcou a sua infância?",
+   "funcao": "Conversa com os seguidores",
+   "formato": "Foto única",
+   "dia": "Sábado, 28/11",
+   "hora": "10h30",
+   "tipo": "imagem",
+   "versao": 1,
+   "ideia": "Uma pergunta leve para o sábado, que puxa comentários. Combina com o post do Cantinho da Leitura de terça.",
+   "midia": [
+    "midia/SAB-infancia.jpg"
+   ],
+   "alts": [
+    "Pergunta de sábado: qual livro marcou a sua infância? Conta aqui nos comentários."
+   ],
+   "dica": "",
+   "legenda": "Pergunta de sábado: qual livro marcou a sua infância? Conta aqui nos comentários, a gente quer saber!\n\nE se ele estiver parado na estante, pode virar a história favorita de outra criança. Manda no Direct ou fala com a gente pelo site, no link da bio.\n\n#PáginasSolidárias #DoeLivros"
+  },
+  {
+   "titulo": "Tem um desses parado aí?",
+   "funcao": "Pedido de doação",
+   "formato": "Fotos · 7",
+   "tipo": "carrossel",
+   "midia": [
+    "midia/DOM-1.jpg",
+    "midia/DOM-2.jpg",
+    "midia/DOM-3.jpg",
+    "midia/DOM-4.jpg",
+    "midia/DOM-5.jpg",
+    "midia/DOM-6.jpg",
+    "midia/DOM-7.jpg"
+   ],
+   "alts": [
+    "Tem um desses parado aí?",
+    "O didático do ano passado",
+    "O romance que você já leu duas vezes",
+    "O livro de receitas que ninguém abre",
+    "O infantil que já ficou pequeno",
+    "O rabiscado, o rasgado",
+    "Separou algum? Manda no Direct"
+   ],
+   "ideia": "Cinco tipos de livro que todo mundo tem em casa saem de uma estante, um por foto. Todos levam o selo \"serve\".",
+   "dica": "Arraste para o lado para ver as fotos.",
+   "legenda": "Todo mundo tem um desses parado em casa. Qual é o seu? Conta aqui nos comentários.\n\nSeparou algum para doar? Manda no Direct ou fala com a gente pelo site, no link da bio. Livro, revista, gibi, apostila: tudo que tem páginas serve.\n\n#DoeLivros #PáginasSolidárias",
+   "cod": "DOM",
+   "dia": "Domingo, 29/11",
+   "hora": "10h30",
+   "versao": 1
+  }
+ ]
+}

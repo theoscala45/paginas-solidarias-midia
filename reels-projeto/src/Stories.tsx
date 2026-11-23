@@ -9,7 +9,7 @@ type Props = {
   linha1: string; enfase: string; linha2?: string; apoio: string; giro: number; iconeBranco: boolean;
 };
 
-const Story: React.FC<Props> = ({fundo, texto, destaque, capa, linha1, enfase, linha2, apoio, giro, iconeBranco}) => (
+export const Story: React.FC<Props> = ({fundo, texto, destaque, capa, linha1, enfase, linha2, apoio, giro, iconeBranco}) => (
   <AbsoluteFill style={{backgroundColor: fundo}}>
     {/* selo */}
     <div style={{position: 'absolute', top: 300, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>

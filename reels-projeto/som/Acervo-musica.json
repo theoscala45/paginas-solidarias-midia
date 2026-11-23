@@ -1,0 +1,52 @@
+{
+ "dur": 16.0,
+ "eventos": [
+  [
+   1.2,
+   "papel.wav",
+   -10,
+   null
+  ],
+  [
+   5.27,
+   "light-switch-sound.wav",
+   -15,
+   null
+  ],
+  [
+   9.67,
+   "short-wind-swoosh.wav",
+   -14,
+   0.7
+  ],
+  [
+   10.87,
+   "cool-interface-click-tone.wav",
+   -14,
+   null
+  ],
+  [
+   11.47,
+   "cool-interface-click-tone.wav",
+   -14,
+   null
+  ],
+  [
+   12.07,
+   "cool-interface-click-tone.wav",
+   -14,
+   null
+  ],
+  [
+   14.4,
+   "message-pop-alert.mp3",
+   -8,
+   null
+  ]
+ ],
+ "musica": {
+  "arquivo": "/home/claude/musica/biblioteca/norm/contagem-original.wav",
+  "inicio": 0.0,
+  "ganho_db": -8
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "dur": 16.67,
+ "eventos": [
+  [
+   1.13,
+   "papel.wav",
+   -10,
+   null
+  ],
+  [
+   2.45,
+   "short-wind-swoosh.wav",
+   -16,
+   0.6
+  ],
+  [
+   3.4,
+   "hard-pop-click.wav",
+   -13,
+   null
+  ],
+  [
+   4.1,
+   "hard-pop-click.wav",
+   -15,
+   null
+  ],
+  [
+   4.9,
+   "light-switch-sound.wav",
+   -16,
+   null
+  ],
+  [
+   6.53,
+   "short-wind-swoosh.wav",
+   -14,
+   0.7
+  ],
+  [
+   9.93,
+   "cool-interface-click-tone.wav",
+   -15,
+   null
+  ],
+  [
+   10.53,
+   "cool-interface-click-tone.wav",
+   -15,
+   null
+  ],
+  [
+   11.13,
+   "cool-interface-click-tone.wav",
+   -15,
+   null
+  ],
+  [
+   13.6,
+   "sino.wav",
+   -10,
+   null
+  ],
+  [
+   15.13,
+   "message-pop-alert.mp3",
+   -8,
+   null
+  ]
+ ],
+ "musica": {
+  "arquivo": "/home/claude/musica/biblioteca/norm/tears-of-joy.wav",
+  "inicio": 60.0,
+  "ganho_db": -8
+ }
+}

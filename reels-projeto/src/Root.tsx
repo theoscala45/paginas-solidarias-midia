@@ -12,12 +12,27 @@ import {S46, S46_DURACAO} from './S46';
 import {StorySeg, StoryQua, StorySex} from './Stories';
 import {P6, P6_LAMINAS} from './Posts3';
 import {P1D, P1D_LAMINAS} from './Posts4';
+import {Ingles, INGLES_DURACAO} from './Ingles';
+import {Acervo, ACERVO_DURACAO} from './Acervo';
+import {FimDeAno, FIM_DURACAO} from './FimDeAno';
+import {CANT, CANT_LAMINAS, CAIXA, CAIXA_LAMINAS, INFANCIA, StorySeg3, StoryQua3, StorySex3} from './Posts5';
+import {Chegou, CHEGOU_DURACAO} from './Chegou';
 import {carregarFontes} from './brand';
 
 carregarFontes();
 
 export const RemotionRoot: React.FC = () => (
   <>
+    <Still id="INFANCIA" component={INFANCIA} width={1080} height={1350} />
+    <Composition id="Chegou" component={Chegou} durationInFrames={CHEGOU_DURACAO} fps={30} width={1080} height={1920} />
+    <Still id="CANT" component={CANT} width={1080 * CANT_LAMINAS} height={1350} />
+    <Still id="CAIXA" component={CAIXA} width={1080 * CAIXA_LAMINAS} height={1350} />
+    <Still id="StorySeg3" component={StorySeg3} width={1080} height={1920} />
+    <Still id="StoryQua3" component={StoryQua3} width={1080} height={1920} />
+    <Still id="StorySex3" component={StorySex3} width={1080} height={1920} />
+    <Composition id="FimDeAno" component={FimDeAno} durationInFrames={FIM_DURACAO} fps={30} width={1080} height={1920} />
+    <Composition id="Acervo" component={Acervo} durationInFrames={ACERVO_DURACAO} fps={30} width={1080} height={1920} />
+    <Composition id="Ingles" component={Ingles} durationInFrames={INGLES_DURACAO} fps={30} width={1080} height={1920} />
     <Still id="P1D" component={P1D} width={1080 * P1D_LAMINAS} height={1350} />
     <Still id="P6" component={P6} width={1080 * P6_LAMINAS} height={1350} />
     <Still id="StorySeg" component={StorySeg} width={1080} height={1920} />

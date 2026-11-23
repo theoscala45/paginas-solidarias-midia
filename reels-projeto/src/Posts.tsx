@@ -116,7 +116,7 @@ export const P1: React.FC = () => {
 export const P2: React.FC = () => (
   <AbsoluteFill style={{backgroundColor: COR.oliva}}>
     <div style={{position: 'absolute', left: M, right: M, top: M, bottom: M, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center'}}>
-      <T size={38} peso={800} cor={COR.cremeEscuro} style={{letterSpacing: 5, marginTop: 10}}>PRESTAÇÃO DE CONTAS · 11 MESES</T>
+      <T size={38} peso={800} cor={COR.cremeEscuro} style={{letterSpacing: 5, marginTop: 10}}>PRESTAÇÃO DE CONTAS · 9 MESES</T>
       <T size={104} cor={COR.creme} style={{marginTop: 50}}>Cada real</T>
       <T size={124} serif cor={COR.branco}>foi doado.</T>
       <div style={{marginTop: 60, display: 'flex', alignItems: 'flex-start', gap: 14}}>
@@ -127,7 +127,7 @@ export const P2: React.FC = () => (
       <div style={{marginTop: 40, display: 'flex', alignItems: 'center', gap: 30}}>
         <div style={{rotate: '-6deg', borderRadius: 22, padding: '8px 26px', backgroundColor: COR.terracota, fontFamily: SANS, fontWeight: 900, fontSize: 64,
           color: COR.branco, boxShadow: '0 12px 30px rgba(0,0,0,0.2)'}}>100%</div>
-        <T size={46} peso={700} cor={COR.creme} style={{textAlign: 'left', lineHeight: 1.2}}>arrecadado e<br />repassado a ONGs</T>
+        <T size={46} peso={700} cor={COR.creme} style={{textAlign: 'left', lineHeight: 1.2}}>arrecadado e repassado a<br />ONGs e protetores de animais</T>
       </div>
       <div style={{marginTop: 70, display: 'flex', gap: 60}}>
         {[

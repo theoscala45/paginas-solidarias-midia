@@ -1,7 +1,7 @@
 {
  "titulo": "Posts da semana de 23 a 29 de novembro",
  "eyebrow": "Páginas Solidárias · Instagram",
- "intro": "Aqui estão os 7 posts da semana e os 3 Stories. Os vídeos têm músicas mais animadas, segunda virou \"Chegou doação!\", e o \"Quem somos\" do Livros & Patinhas vem na quarta, antes do vídeo do acervo, que passou para quinta (com o Story logo depois).",
+ "intro": "Os posts da semana já estão agendados. Novo nesta página: \"Bastidores: higienização e separação\", para hoje, quinta, às 12h30. O vídeo do acervo do Livros & Patinhas passaria para as 19h, com o Story às 20h.",
  "pecas": [
   {
    "cod": "SEG",
@@ -84,12 +84,33 @@
    "legenda": "Você conhece o @livrosepatinhas?\n\nÉ um projeto social dentro do Páginas Solidárias: os livros doados em bom estado ganham novos leitores, e 100% da renda vai para ONGs e protetores de animais em situação de abandono.\n\nTrês jeitos de ajudar:\nDoe livros: manda no Direct ou pelo site, no link da bio\nCompre no Livros & Patinhas: chama no Direct do @livrosepatinhas\nDivulgue: compartilhe este post e siga o @livrosepatinhas\n\n#LivrosEPatinhas #PáginasSolidárias"
   },
   {
+   "cod": "QUI-EXTRA",
+   "titulo": "Bastidores: higienização e separação",
+   "funcao": "Bastidores do projeto",
+   "formato": "Carrossel · 2 imagens",
+   "dia": "Quinta, 26/11",
+   "hora": "12h30",
+   "tipo": "carrossel",
+   "versao": 1,
+   "ideia": "As duas imagens que você mandou, juntas: primeiro o processo (higienização e separação), depois a doação pronta, saindo para o destino final.",
+   "midia": [
+    "midia/QUI-EXTRA-1.jpg",
+    "midia/QUI-EXTRA-2.jpg"
+   ],
+   "alts": [
+    "Processo dos livros: higienização e separação para o destino final.",
+    "Doação já higienizada e separada, saindo para o destino final."
+   ],
+   "dica": "Carrossel sem música.",
+   "legenda": "Bastidores: antes de seguir para o destino final, cada livro passa por higienização e separação.\n\nOs que dá para vender vão para o @livrosepatinhas, e 100% da renda vai para ONGs e protetores de animais em situação de abandono. Os que dá para ler de novo seguem para bibliotecas públicas, hospitais e a @biblioteca_becei, em Paraisópolis. E os que não têm mais jeito vão para a reciclagem com a @tramahsustentabilidade.\n\nEssa leva já está higienizada, separada e saindo para o destino final.\n\nTem livro parado aí? Manda no Direct ou fala com a gente pelo site, no link da bio.\n\n#PáginasSolidárias #DoeLivros #Bastidores"
+  },
+  {
    "cod": "QUA",
    "titulo": "O acervo do Livros & Patinhas",
    "funcao": "Venda que ajuda os animais",
    "formato": "Vídeo · 16 s",
    "dia": "Quinta, 26/11",
-   "hora": "12h30",
+   "hora": "19h",
    "tipo": "video",
    "ideia": "A câmera passeia pelas estantes das suas fotos. Um cartão conta que todos os livros foram doados pelo Páginas Solidárias e depois vira o passo a passo de como comprar.",
    "midia": [
@@ -106,7 +127,7 @@
    "funcao": "Chama para o vídeo de quinta",
    "formato": "Story",
    "dia": "Quinta, 26/11",
-   "hora": "13h30",
+   "hora": "20h",
    "tipo": "imagem",
    "ideia": "Pergunta se a pessoa já viu o acervo e mostra a capa do vídeo.",
    "midia": [

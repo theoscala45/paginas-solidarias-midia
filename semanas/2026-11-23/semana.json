@@ -1,7 +1,7 @@
 {
  "titulo": "Posts da semana de 23 a 29 de novembro",
  "eyebrow": "Páginas Solidárias · Instagram",
- "intro": "Os posts da semana já estão agendados. Novo nesta página: \"Bastidores: higienização e separação\", para hoje, quinta, às 12h30. O vídeo do acervo do Livros & Patinhas passaria para as 19h, com o Story às 20h.",
+ "intro": "Os posts da semana já estão agendados. Novo nesta página: o Story \"174 livros para a Biblioteca BECEI\", para hoje, quinta, às 21h.",
  "pecas": [
   {
    "cod": "SEG",
@@ -139,6 +139,25 @@
    "dica": "",
    "legenda": "Sem texto: no Story vai só a imagem.",
    "versao": 1
+  },
+  {
+   "cod": "STORY-BECEI",
+   "titulo": "Story: 174 livros para a Biblioteca BECEI",
+   "funcao": "Agradece e mostra a entrega de hoje",
+   "formato": "Story",
+   "dia": "Quinta, 26/11",
+   "hora": "21h",
+   "tipo": "imagem",
+   "versao": 3,
+   "ideia": "Mostra a imagem que a BECEI postou, com os livros da entrega de hoje em cima da mesa, e o número da entrega.",
+   "midia": [
+    "midia/STORY-BECEI-v3.jpg"
+   ],
+   "alts": [
+    "Story: 174 livros para a Biblioteca BECEI, em Paraisópolis. Acabaram de chegar à @biblioteca_becei."
+   ],
+   "dica": "",
+   "legenda": "Sem texto: no Story vai só a imagem."
   },
   {
    "cod": "SEX",

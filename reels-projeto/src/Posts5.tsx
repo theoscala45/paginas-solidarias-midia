@@ -182,3 +182,24 @@ export const INFANCIA: React.FC = () => (
     </div>
   </AbsoluteFill>
 );
+
+// ---------- Story extra · 174 livros para a Biblioteca BECEI (26/11) ----------
+export const StoryBecei: React.FC = () => (
+  <AbsoluteFill style={{backgroundColor: COR.oliva}}>
+    <div style={{position: 'absolute', top: 280, left: 90, right: 90, textAlign: 'center'}}>
+      <T size={44} peso={800} cor={COR.cremeEscuro} style={{letterSpacing: 4}}>ENTREGA DE HOJE</T>
+      <div style={{fontFamily: SANS, fontWeight: 900, fontSize: 132, lineHeight: 1, color: COR.creme, marginTop: 16, whiteSpace: 'nowrap'}}>174 livros</div>
+      <T size={54} peso={800} cor={COR.creme} style={{marginTop: 14}}>para a Biblioteca BECEI,</T>
+      <T size={54} peso={800} cor={COR.creme}>em Paraisópolis</T>
+    </div>
+    <div style={{position: 'absolute', top: 700, left: 0, right: 0, display: 'flex', justifyContent: 'center'}}>
+      <div style={{width: 560, height: 764, rotate: '-3deg', borderRadius: 28, overflow: 'hidden', border: `12px solid ${COR.branco}`, boxShadow: '0 30px 60px #00000040'}}>
+        <Img src={staticFile('fotos/becei-story.jpg')} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 60%'}} />
+      </div>
+    </div>
+    <div style={{position: 'absolute', top: 1530, left: 80, right: 80, textAlign: 'center'}}>
+      <T size={60} serif cor={COR.creme}>Acabaram de chegar à</T>
+      <T size={54} peso={800} cor={COR.cremeEscuro} style={{marginTop: 6}}>@biblioteca_becei</T>
+    </div>
+  </AbsoluteFill>
+);
